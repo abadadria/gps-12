@@ -30,3 +30,7 @@ jobs:
       - name: Test with pytest
         run: |
           pytest test.py
+      - name: Coverage Tests
+        run: |
+          pip install coverage
+          coverage run test.py
