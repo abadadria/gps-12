@@ -34,3 +34,4 @@ jobs:
       - name: Coverage Tests
         run: |
           coverage run test.py
+          coverage report -m
